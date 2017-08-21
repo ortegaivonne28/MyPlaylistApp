@@ -147,6 +147,7 @@ public class HomePage extends AppCompatActivity {
                 .build();
 
 
+        //TODO ADD CREDENTIALS HERE
         final Request request = new Request.Builder()
                 .url("https://accounts.spotify.com/api/token")
                 .post(body)
