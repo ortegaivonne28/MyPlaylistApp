@@ -1,8 +1,6 @@
-# Dillinger
 
 
-
-Playlist app.
+##Playlist app.
 
   - Create Playlists
   - Add songs to playlists using Spotify's API
