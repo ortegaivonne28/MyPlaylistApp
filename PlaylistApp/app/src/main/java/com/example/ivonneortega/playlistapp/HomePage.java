@@ -150,7 +150,7 @@ public class HomePage extends AppCompatActivity {
         final Request request = new Request.Builder()
                 .url("https://accounts.spotify.com/api/token")
                 .post(body)
-                .header("Authorization","Basic NTg1NmIxZjQ3ZGJhNDE0ZmJkYTg2NTdlN2FkOWU5NTQ6YWNjNWMyOGY0YzZkNDIxMzk4MDY4YjAwYWUwZmMwOTI=")
+                .header("Authorization","Basic **ADD TOKEN**")
                 .build();
 
         client.newCall(request).enqueue(new Callback() {
